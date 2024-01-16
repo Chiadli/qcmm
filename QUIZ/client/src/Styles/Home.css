@@ -1,0 +1,27 @@
+.quizHomeContainer {
+    display: block;
+    position: relative;
+    margin: 40px auto;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    color: var(--light-color);
+    background-color: rgb(30, 40, 53);
+    border: 0.1px solid var(--light-color);
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 rgb(223, 223, 223, 0.2)
+}
+
+.quizHomeTitle {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+.quizHomeContainer:hover {
+    background-color: var(--primary-color);
+}
